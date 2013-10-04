@@ -46,7 +46,7 @@ void loop() {
         digitalWrite(StopButton,ON);
         delay(100);
         digitalWrite(StopButton,OFF);
-        Serial.println('b');
+        Serial.println( millis() );
       }
       else 
       {
