@@ -39,12 +39,14 @@ void loop() {
         digitalWrite(StartButton,ON);
         delay(100);
         digitalWrite(StartButton,OFF);
+        Serial.println('a');
       }
       else if (ch == '2') 
       {
         digitalWrite(StopButton,ON);
         delay(100);
         digitalWrite(StopButton,OFF);
+        Serial.println('b');
       }
       else 
       {
