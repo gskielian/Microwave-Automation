@@ -1,7 +1,7 @@
 Microwave-Automation
 ====================
 
-Using a relay-controlled microwave to evaluate the suitability of pyserial for certain applications.
+Using a relay-controlled microwave to evaluate the suitability of pyserial for robotic and data-logging applications.
 
 
 
