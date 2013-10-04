@@ -1,7 +1,7 @@
 #!/Library/Frameworks/Python.framework/Versions/2.7/bin/python
 
 #I have a really long python path
-#just use the " :r! which python " in vim to add your path
+#just use the " :r! which python " to add your path
 
 import serial, time
 
@@ -12,6 +12,7 @@ def send_and_receive( theinput ):
     ser.write( theinput )
     while True:
       try:
+        time.sleep(0.01)
         state = ser.readline()
         print state
         break
@@ -20,6 +21,7 @@ def send_and_receive( theinput ):
     time.sleep(0.1)
 
 while True:
+
   input_var = input("Enter something: ")
 
   if input_var == 1:
