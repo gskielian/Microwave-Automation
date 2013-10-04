@@ -1,3 +1,7 @@
+/*
+We will send '1' to the arduino to add time to the clock (in units of 30 seconds)
+We will send '2' to the arduino to press the stop button
+*/
 
 //Relays are active low, so we'll just call "LOW" "On" from here on utilizing the #define protocol
 #define ON LOW
