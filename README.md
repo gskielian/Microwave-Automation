@@ -1,9 +1,7 @@
 Microwave-Automation
 ====================
 
-I hope to create a clean interface for microwave.
-
-
+Using a relay-controlled microwave to evaluate the suitability of pyserial for certain applications.
 
 
 
